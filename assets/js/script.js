@@ -15,3 +15,8 @@ var scheduleWorkday = [
     { time: "4 PM", event: "" },
     { time: "5 PM", event: "" }
 ];
+
+var scheduledEvents = JSON.parse(localStorage.getItem("workDay"));
+if (scheduledEvents) {
+    scheduleWorkday = scheduledEvents;
+}
