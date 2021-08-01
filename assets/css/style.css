@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -28,6 +34,7 @@ body {
   .time-block{
     text-align: center;
     border-radius: 15px;
+    padding-bottom: 10px;
   }
   
   .row {
@@ -40,6 +47,8 @@ body {
     background-color: #ffffff;
     color: #000000;
     border-top: 1px dashed #000000;
+    font-weight: bold;
+    height: 79px;
   }
   
   .past {
@@ -63,6 +72,7 @@ body {
     border-bottom-right-radius: 15px;
     background-color: #06AED5;
     color: white;
+    padding: 20px 40px;
   }
   
   .saveBtn i:hover {
